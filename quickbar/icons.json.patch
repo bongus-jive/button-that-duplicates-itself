@@ -3,7 +3,7 @@
     "op": "add",
     "path": "/items/patman:duplicate",
     "value": {
-      "label": "^shadow;h",
+      "label": "^shadow;me",
 			"weight": 6942069420,
 			"icon": "/quickbar/pat_duplicate.png",
       "action": [ "exec", "/quickbar/pat_duplicate.lua" ]
