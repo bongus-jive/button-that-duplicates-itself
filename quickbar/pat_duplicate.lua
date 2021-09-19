@@ -3,7 +3,7 @@ do
 	local i = c.items["patman:duplicate"]
 
 	--old quickbar
-	if not qbActions then
+	if not metagui then
 		local function action(_, script, ...)
 			if type(script) ~= "string" then return nil end
 			params = {...}

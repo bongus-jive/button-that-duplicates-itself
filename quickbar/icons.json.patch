@@ -6,6 +6,7 @@
       "label": "^shadow;me",
 			"weight": 6942069420,
 			"icon": "/quickbar/pat_duplicate.png",
+			"blockAutoDismiss" : true,
       "action": [ "exec", "/quickbar/pat_duplicate.lua" ]
     }
   }
