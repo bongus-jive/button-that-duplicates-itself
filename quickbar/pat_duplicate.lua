@@ -22,8 +22,8 @@ do
 		local btn = bc .. "." .. widget.addListItem(bc) .. ".button"
 		widget.setButtonOverlayImage(btn, i.icon or "/items/currency/essence.png")
 
-		if config.getParameter("compacted") and labels then
-			labels[btn] = i.label
+		if config.getParameter("compacted") and compactLabels then
+			compactLabels[btn] = i.label
 		end
 
 	--new quickbar
