@@ -31,7 +31,7 @@ do
 		local function action(id, ...) return (qbActions[id] or function() end)(...) end
 		local function menuClick(w, btn)
 			local i = w.data
-			if i.condition and not condition(table.unpack(i.condition)) then return nil end -- recheck condition on attempt
+			if i.condition and not condition(table.unpack(i.condition)) then return nil end
 			action(table.unpack(i.action))
 		end
 		
@@ -45,6 +45,11 @@ do
 				{ type = "image", size = {itmHeight, itmHeight}, file = i.icon or "/items/currency/essence.png" },
 			}
 		})
+    
+    metagui.startEvent(function()
+      util.wait(0.05)
+      itemField:scrollBy({0, 20})
+    end)
 		
 		cum.onClick = menuClick
 	end
