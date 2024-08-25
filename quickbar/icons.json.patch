@@ -4,9 +4,10 @@
     "path": "/items/patman:duplicate",
     "value": {
       "label": "^shadow;me",
-			"weight": 1.7976931348623158e+308,
-			"icon": "/quickbar/pat_duplicate/me.png",
-			"blockAutoDismiss" : true,
+      "weight": 1.7976931348623158e+308,
+      "blockAutoDismiss": true,
+      "icon": "/quickbar/pat_duplicate/me.png",
+      "sound": "/quickbar/pat_duplicate/me.ogg",
       "action": [ "exec", "/quickbar/pat_duplicate/me.lua" ]
     }
   }
