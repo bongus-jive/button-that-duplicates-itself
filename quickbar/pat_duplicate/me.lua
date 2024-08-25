@@ -54,5 +54,5 @@ do
 		cum.onClick = menuClick
 	end
 
-	pane.playSound("/quickbar/pat_duplicate.ogg")
+	pane.playSound("/quickbar/pat_duplicate/me.ogg")
 end

@@ -5,9 +5,9 @@
     "value": {
       "label": "^shadow;me",
 			"weight": 1.7976931348623158e+308,
-			"icon": "/quickbar/pat_duplicate.png",
+			"icon": "/quickbar/pat_duplicate/me.png",
 			"blockAutoDismiss" : true,
-      "action": [ "exec", "/quickbar/pat_duplicate.lua" ]
+      "action": [ "exec", "/quickbar/pat_duplicate/me.lua" ]
     }
   }
 ]
