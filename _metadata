@@ -1,11 +1,12 @@
 {
-  "version" : "1.3",
   "author" : "pat",
-  "tags" : "User Interface",
-  "description" : "adds a button to quickbar that duplicates itself for absolutely no reason\n\nfunny\n\n[h1]https://discord.gg/GdsQSgV[/h1]\nhttps://www.patreon.com/pathiccstar",
-  "name" : "quickbarduplication",
+  "description" : "adds a button to quickbar that duplicates itself for absolutely no reason",
   "friendlyName" : "button that duplicates itself for no reason",
-  "steamContentId" : "2484617404",
+  "includes" : ["QuickbarMini", "StardustLib"],
   "link" : "steam://url/CommunityFilePage/2484617404",
-  "includes" : ["QuickbarMini", "StardustLib"]
+  "name" : "quickbarduplication",
+  "steamContentId" : "2484617404",
+  "steamDescription" : "adds a button to quickbar that duplicates itself for absolutely no reason\n\nfunny\n\n[h1]https://discord.gg/GdsQSgV[/h1]\nhttps://www.patreon.com/pathiccstar",
+  "tags" : "User Interface",
+  "version" : "1.3"
 }
