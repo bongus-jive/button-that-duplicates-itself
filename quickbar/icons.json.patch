@@ -4,7 +4,7 @@
     "path": "/items/patman:duplicate",
     "value": {
       "label": "^shadow;me",
-			"weight": 694206942000000069,
+			"weight": 1.7976931348623158e+308,
 			"icon": "/quickbar/pat_duplicate.png",
 			"blockAutoDismiss" : true,
       "action": [ "exec", "/quickbar/pat_duplicate.lua" ]
